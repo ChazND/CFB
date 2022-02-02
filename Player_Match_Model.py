@@ -10,7 +10,7 @@ st.set_page_config(page_title='Recruit Dashboard',
 @st.cache(allow_output_mutation=True)
 def get_pbp():
 
-    data_ = pd.read_excel('Consolidated_UC_Data+NDwnew.')
+    data_ = pd.read_excel('Consolidated_UC_Data+NDwnew.xlsx')
     return data_
 
 data = get_pbp()
