@@ -1,8 +1,5 @@
 import pandas as pd
 import numpy as np
-import seaborn as sns
-import statsmodels
-from statsmodels.nonparametric.smoothers_lowess import lowess
 import streamlit as st
 
 st.set_page_config(page_title='Recruit Dashboard',
