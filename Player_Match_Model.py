@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-st.set_page_config(page_title='Recruit Dashboard',
+st.set_page_config(page_title='Recruit Dashboard v0.1',
                    page_icon='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Notre_Dame_Fighting_Irish_logo.svg/1200px-Notre_Dame_Fighting_Irish_logo.svg.png',
                    layout="wide")
 
